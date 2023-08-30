@@ -10,7 +10,7 @@ const Post = () => {
 
 const PostId = () => {
   let params = useParams();
-  return <p>Post: {params.postId}</p>;
+  return <p>Post ID: {params.postId}</p>;
 };
 
 const Todo = () => {
